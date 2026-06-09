@@ -1,25 +1,32 @@
-.personagens {
-    text-align: center;
+.historia,
+.curiosidades,
+.valores,
+.galeria,
+.episodios{
+    padding:40px;
+    text-align:center;
 }
 
-.card {
-    display: inline-block;
-    width: 220px;
-    margin: 15px;
-    background: white;
-    padding: 15px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+.curiosidades ul{
+    list-style:none;
 }
 
-.card img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    border-radius: 10px;
+.curiosidades li{
+    margin:10px 0;
+    font-size:18px;
 }
 
-.card h3 {
-    color: #e63946;
-    margin: 10px 0;
+.valores{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+footer{
+    background:#ff69b4;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
 }
