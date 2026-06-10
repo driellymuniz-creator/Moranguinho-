@@ -1,32 +1,23 @@
-.historia,
-.curiosidades,
-.valores,
-.galeria,
-.episodios{
-    padding:40px;
-    text-align:center;
+img{
+    display: block;
+    width: 100%;
+    max-width: 350px;
+    margin: 15px auto;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
-.curiosidades ul{
-    list-style:none;
+img:hover{
+    transform: scale(1.05);
 }
 
-.curiosidades li{
-    margin:10px 0;
-    font-size:18px;
+.galeria{
+    text-align: center;
 }
 
-.valores{
-    display:flex;
-    justify-content:center;
-    flex-wrap:wrap;
-    gap:20px;
-}
-
-footer{
-    background:#ff69b4;
-    color:white;
-    text-align:center;
-    padding:25px;
-    margin-top:30px;
+.galeria img{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
 }
